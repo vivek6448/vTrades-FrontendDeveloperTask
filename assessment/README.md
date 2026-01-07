@@ -1,11 +1,11 @@
 # DE5 Frontend Assignment
 
 ## Tech Stack
-Frontend: React.js
-Styling: Tailwind CSS
-Routing: React Router DOM
-API: Mock API using Promise / setTimeout (simulating backend)
-Version Control: Git & GitHub
+//Frontend: React.js
+//Styling: Tailwind CSS
+//Routing: React Router DOM
+//API: Mock API using Promise / setTimeout (simulating backend)
+//Version Control: Git & GitHub
 
 ## How to Run
 npm install
