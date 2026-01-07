@@ -3,7 +3,7 @@ import AuthLayout from "./Components/AuthLayout";
 import SignIn from "./Pages/SignIn";
 import SignUp from "./Pages/SignUp";
 import ForgotPassword from "./Components/ForgotPassword";
-import VerifyOtp from "./Components/VerifyOtp";
+import VerifyOtp from "./Pages/VerifyOtp";
 import ResetPassword from "./Pages/ResetPassword";
 
 function App() {

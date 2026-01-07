@@ -35,3 +35,4 @@ export const googleLogin = () => {
     }, 1200);
   });
 };
+//Mock API jwt token for login in Sign in with Google button
