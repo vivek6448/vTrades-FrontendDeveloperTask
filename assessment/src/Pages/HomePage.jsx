@@ -5,7 +5,7 @@ import GoogleSignIn from "../Components/GoogleSignIn";
 import { Eye, EyeOff } from "lucide-react";
 
 export default function Home() {
-  const { showGoogle } = useOutletContext(); // 👈 from AuthLayout
+  const { showGoogle } = useOutletContext(); // from AuthLayout
 
   const [user, setUser] = useState(null);
   const [form, setForm] = useState({ email: "", password: "" });
