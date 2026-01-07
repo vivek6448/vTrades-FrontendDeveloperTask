@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AuthLayout from "./Components/AuthLayout";
 import SignIn from "./Pages/SignIn";
 import SignUp from "./Pages/SignUp";
-import ForgotPassword from "./Components/ForgotPassword";
+import ForgotPassword from "./Pages/ForgotPassword";
 import VerifyOtp from "./Pages/VerifyOtp";
 import ResetPassword from "./Pages/ResetPassword";
 
