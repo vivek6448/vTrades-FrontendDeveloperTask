@@ -7,3 +7,7 @@
 ## How to Run
 npm install
 npm start
+
+## Libraries
+npm install Firebase
+npm install lucide-react
