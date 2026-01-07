@@ -8,7 +8,7 @@ export default function AuthLayout() {
     <div className="min-h-screen w-full bg-[#0f1117] flex items-center justify-center pt-6 pb-10">
       <div className="w-full max-w-7xl flex flex-col md:flex-row gap-8 px-4 md:px-6">
 
-        {/* LEFT IMAGE — VISIBLE ON MOBILE + DESKTOP */}
+        {/* Image Consistent in SignUp page */}
         <div className="flex w-full md:w-1/2 p-2 md:p-4 items-center justify-center">
           <div className="relative w-full h-[40vh] md:h-[80vh] rounded-3xl overflow-hidden shadow-2xl">
             <img

@@ -34,7 +34,7 @@ export default function Home() {
     }
   };
 
-  /* ---------------- LOGGED IN VIEW ---------------- */
+  /* LOGGED IN VIEW  */
   if (user) {
     return (
       <div className="text-white text-center space-y-4">
@@ -55,7 +55,7 @@ export default function Home() {
     );
   }
 
-  /* ---------------- SIGN IN FORM ---------------- */
+  /* SIGN IN FORM */
   return (
     <div
       className=" flex flex-col gap-6 w-full text-white

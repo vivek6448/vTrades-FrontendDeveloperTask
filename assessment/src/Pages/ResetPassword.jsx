@@ -16,25 +16,25 @@ export default function ResetPassword() {
     e.preventDefault();
     setError("");
 
-    // 🔴 Empty fields validation
+    //  Empty fields validation
     if (!password || !confirm) {
       setError("Please fill in both password fields");
       return;
     }
 
-    // 🔴 Minimum length validation
+    //  Minimum length validation
     if (password.length < 6) {
       setError("Password must be at least 6 characters");
       return;
     }
 
-    // 🔴 Password match validation
+    //  Password match validation
     if (password !== confirm) {
       setError("Passwords do not match");
       return;
     }
 
-    // ✅ Mock API call
+    // Mock API call
     try {
       await resetPassword();
       navigate("/");
